@@ -49,5 +49,3 @@ end
 # gem 'debugger', group: [:development, :test]
 
 gem 'octokit', '~> 2.7.2'
-
-# elen elen elen elen elen elen elen elen elen elen elen
