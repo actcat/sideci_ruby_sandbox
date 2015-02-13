@@ -21,6 +21,8 @@ class BananasController < ApplicationController
       test8 = User.first(:conditions => ("username = '#{params[:user]}'"))  
       # NOTE: This is waste code, add security issue line / unused variable
       test8 = User.first(:conditions => ("username = '#{params[:user]}'"))  
+      test9 = User.first(:conditions => ("username = '#{params[:user]}'"))
+      test10 = User.first(:conditions => ("username = '#{params[:user]}'"))
       
     end
 
