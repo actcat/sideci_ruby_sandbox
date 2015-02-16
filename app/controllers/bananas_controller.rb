@@ -24,6 +24,7 @@ class BananasController < ApplicationController
       test9 = User.first(:conditions => ("username = '#{params[:user]}'"))
       test10 = User.first(:conditions => ("username = '#{params[:user]}'"))
       test11 = User.first(:conditions => ("username = '#{params[:user]}'")) # security issue code
+      test12 = User.first(:conditions => ("username = '#{params[:user]}'")) # security issue code  
     end
 
     @banana = Banana.order(created_at: params[:order_by_created_at].to_sym)
