@@ -34,13 +34,9 @@ gem "hipchat"
 gem "omniauth"
 
 gem "mysql2"
-gem 'pg', '>= 0.14.1' # for debug user env
 
 group :development, :test do
   # gem 'rspec-rails', '~> 3.0.0'
-  gem 'rubocop', require: false
-  gem 'rubocop-rspec'
-  gem 'rubocop-git'
 end
 
 # test
@@ -70,3 +66,4 @@ end
 
 # octokit
 gem 'octokit', '~> 2.7.2'
+#Blanco
