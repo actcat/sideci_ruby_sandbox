@@ -24,3 +24,9 @@ tags
 
 # Ignore
 dump.rdb
+
+#ruby mine
+.idea/*
+
+# scsslint
+/.sass-cache
