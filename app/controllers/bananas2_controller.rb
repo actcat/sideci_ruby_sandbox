@@ -75,4 +75,17 @@ class Bananas2Controller < ApplicationController
     def banana_params
       params.require(:banana).permit(:name, :price)
     end
+
+    def fruits
+      if request.post?
+        unless @banana.said?(params[:food_type])
+          @banana.errors.add :food_type, "is invalid"
+          return
+        end
+        @banana.crypted_food_type = ""
+        @banana.food_type = params[:vegitable]
+        @banana.food_type_confirmation = params[:vegitable_confirmation]
+        @banana.save
+      end
+    end
 end
