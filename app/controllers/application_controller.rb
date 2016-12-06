@@ -9,6 +9,13 @@ class ApplicationController < ActionController::Base
   end
   def tetete
   end
+
+  def nil_checker(argument)
+    if argument.nil?
+      puts "argument isn't nil!"
+    end
+  end
+
 private
 
   def waste_action
