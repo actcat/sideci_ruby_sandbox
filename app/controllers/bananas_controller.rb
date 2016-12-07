@@ -21,7 +21,10 @@ class BananasController < ApplicationController
       test8 = User.first(:conditions => ("username = '#{params[:user]}'"))  
       # NOTE: This is waste code, add security issue line / unused variable
       test8 = User.first(:conditions => ("username = '#{params[:user]}'"))  
-      
+      test9 = User.first(:conditions => ("username = '#{params[:user]}'"))
+      test10 = User.first(:conditions => ("username = '#{params[:user]}'"))
+      test11 = User.first(:conditions => ("username = '#{params[:user]}'")) # security issue code
+      test12 = User.first(:conditions => ("username = '#{params[:user]}'")) # security issue code  
     end
 
     @banana = Banana.order(created_at: params[:order_by_created_at].to_sym)
@@ -105,5 +108,12 @@ class BananasController < ApplicationController
       end
       return false
     end
+
+    #bad patern method
+  def badName
+    if something
+      test
+    end
+  end
 
 end
