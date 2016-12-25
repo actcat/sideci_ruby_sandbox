@@ -1,9 +1,11 @@
 require: rubocop-rspec
 
+Rails:
+  Enabled: true
+
 AllCops:
   Exclude:
     - 'vendor/**/*'
-  RunRailsCops: true
   DisplayCopNames: true
 
 Style/AccessModifierIndentation:
@@ -51,9 +53,6 @@ Style/BlockComments:
 Style/BlockEndNewline:
   Enabled: false
 
-Style/Blocks:
-  Enabled: false
-
 Style/BracesAroundHashParameters:
   Enabled: false
 
@@ -94,9 +93,6 @@ Style/ConstantName:
   Enabled: false
 
 Style/DefWithParentheses:
-  Enabled: false
-
-Style/DeprecatedHashMethods:
   Enabled: false
 
 Style/Documentation:
@@ -318,7 +314,7 @@ Style/SingleLineBlockParams:
 Style/SingleLineMethods:
   Enabled: false
 
-Style/SingleSpaceBeforeFirstArg:
+Style/SpaceBeforeFirstArg:
   Enabled: false
 
 Style/SpaceAfterColon:
@@ -327,7 +323,7 @@ Style/SpaceAfterColon:
 Style/SpaceAfterComma:
   Enabled: false
 
-Style/SpaceAfterControlKeyword:
+Style/SpaceAroundKeyword:
   Enabled: false
 
 Style/SpaceAfterMethodName:
@@ -363,7 +359,7 @@ Style/SpaceAroundEqualsInParameterDefault:
 Style/SpaceAroundOperators:
   Enabled: false
 
-Style/SpaceBeforeModifierKeyword:
+Style/SpaceAroundKeyword:
   Enabled: false
 
 Style/SpaceInsideBrackets:
@@ -402,7 +398,7 @@ Style/Tab:
 Style/TrailingBlankLines:
   Enabled: false
 
-Style/TrailingComma:
+Style/TrailingCommaInLiteral:
   Enabled: false
 
 Style/TrailingWhitespace:
@@ -418,9 +414,6 @@ Style/UnneededCapitalW:
   Enabled: false
 
 Style/UnneededPercentQ:
-  Enabled: false
-
-Style/UnneededPercentX:
   Enabled: false
 
 Style/VariableInterpolation:
