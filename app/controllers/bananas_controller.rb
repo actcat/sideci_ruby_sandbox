@@ -1,4 +1,3 @@
-
 class BananasController < ApplicationController
 
   attr_accessor :banana, :lemon
