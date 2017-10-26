@@ -11,5 +11,4 @@ linter:
     options:
       config: 'haml-lint.default.yml'
   eslint:
-    dir:
-      - dir1
+    dir: dir2
