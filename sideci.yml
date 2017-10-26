@@ -10,3 +10,6 @@ linter:
   haml_lint:
     options:
       config: 'haml-lint.default.yml'
+  eslint:
+    dir:
+      - dir1
