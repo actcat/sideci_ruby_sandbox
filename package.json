@@ -1,0 +1,26 @@
+{
+  "name": "sideci_ruby_sandbox",
+  "version": "1.0.0",
+  "description": "== README",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akito-sandbox2/sideci_ruby_sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akito-sandbox2/sideci_ruby_sandbox/issues"
+  },
+  "homepage": "https://github.com/akito-sandbox2/sideci_ruby_sandbox#readme",
+  "dependencies": {
+    "eslint": "^4.16.0"
+  }
+}
